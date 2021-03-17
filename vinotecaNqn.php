@@ -44,8 +44,6 @@ function main(){
     );
 
     /** Empiezo a comunicarme con el usuario para que vea la informacion de los vinos */
-    // echo "Desea ver la informacion de nuestros vinos? si/no" . "\n";
-    // $respuesta = trim(fgets(STDIN));
     do{
         echo "Elija una opcion para ver la informacion de los vinos disponibles: 1-Malbec, 2-Cabernet Suavignon, 3-Merlot \n";
         $opcionVino = trim(fgets(STDIN));
