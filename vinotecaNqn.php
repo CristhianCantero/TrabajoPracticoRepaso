@@ -1,6 +1,5 @@
 <?php
 
-
 /**
  * @param array $colecVinosCant
  * @param array $colecVinosPrecios
@@ -18,8 +17,6 @@ function promedioVino($colecVinosCant, $colecVinosPrecios){
     $infoTotalVinos = ["sumaCant" => $sumaCantTotal, "promedioPrecios" => $promedioPrecios];
     return $infoTotalVinos;
 }
-
-
 
 function main(){
     /** Coleccion de vinos */
